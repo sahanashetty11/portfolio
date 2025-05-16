@@ -18,14 +18,14 @@ const timelinesection = [
   {
     heading: "University of Massachusetts at Amherst",
     image: "assets/images/education-page/umass.png",
-    subheading: "Masters of Science, Computer Science, (2023-Present) ",
+    subheading: "Masters of Science, Computer Science, (2025-Present) ",
     description:
       "<li>CGPA: 4/4</li><li>Distributed and Operating Systems, Database Design and Implementation, Artificial Intelligence</li>",
   },
   {
     heading: "Ramaiah Institute of Technology",
     image: "assets/images/education-page/rit.png",
-    subheading: "Bachelors of Technology, Information Technology, (2018-2022) ",
+    subheading: "Bachelors of Technology, Information Technology, (2015-2019) ",
     description:
       "<li>CGPA: 9.43/10</li><li>Data Structures, Machine Learning, Data Mining, Distributed Storage Technologies, Operating Systems etc</li><li>Member of Coding Club, Debugging Club</li>",
   }
