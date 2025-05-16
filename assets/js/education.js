@@ -25,7 +25,7 @@ const timelinesection = [
   {
     heading: "Ramaiah Institute of Technology",
     image: "assets/images/education-page/rit.png",
-    subheading: "Bachelors of Technology, Information Technology, (2015-2019) ",
+    subheading: "Bachelor of Engineering, Information Science, (2015-2019) ",
     description:
       "<li>CGPA: 9.43/10</li><li>Data Structures, Machine Learning, Data Mining, Distributed Storage Technologies, Operating Systems etc</li><li>Member of Coding Club, Debugging Club</li>",
   }
