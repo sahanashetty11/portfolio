@@ -21,8 +21,6 @@ html[data-theme="dark"] {
 }
 html {
   overflow-x: hidden;
-  max-width: 120%;
-  height: auto;
 }
 body {
   color: var(--text);
@@ -188,7 +186,7 @@ a:hover {
 .card .wrapper {
   background-color: #fff;
   border: 0;
-  border-radius: 10px;
+  border-radius: 5px;
   min-height: 21.5rem;
   position: relative;
   overflow: hidden;
@@ -221,19 +219,19 @@ a:hover {
 
 .card .title-div {
   width: 100%;
-  height: 35%;
+  height: 15%;
   margin: 0;
 }
 
 .card .title {
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
   margin-top: 0em;
-  font-size: 0.65em;
+  font-size: 0.45em;
 }
 
 @media (min-width: 411px) {
   .card .title {
-    font-size: 0.8em;
+    font-size: 0.6em;
   }
 }
 
@@ -360,6 +358,7 @@ input[type="text"] {
   background-color: rgba(0, 0, 0, 0.55);
   transform: translateY(calc(60px + 4em));
   padding: 5px;
+  margin-top: 30px;
 }
 
 .skill-card .title a {
@@ -373,7 +372,8 @@ ul {
 }
 
 .social-icon svg {
-  margin-top: 30px;
+  margin-top: 2px;
+  margin-left: 10px;
 }
 
 .menu-content {
@@ -808,7 +808,7 @@ SVG ANIMATIONS PROJECT PAGE
 #ku.svgmate #Man_screen .screenbutton {
   animation-name: manscreenpopup;
   animation-iteration-count: 1;
-  animation-duration: 5.6s;
+  animation-duration: 3.6s;
   animation-timing-function: ease-in-out;
   transform-origin: 526.882px 383px;
 }

@@ -1,5 +1,5 @@
 var cursor = {
-  delay: 8,
+  delay: 6,
   _x: 0,
   _y: 0,
   endX: window.innerWidth / 2,
@@ -8,8 +8,6 @@ var cursor = {
   cursorEnlarged: false,
   $dot: document.querySelector(".cursor-dot"),
   $outline: document.querySelector(".cursor-dot-outline"),
-  lastScrolledLeft : 0, // For changing position of cursor with scrolling
-  lastScrolledTop : 0,  // For changing position of cursor with scrolling
 
   init: function () {
     // Set up element sizes
@@ -71,24 +69,6 @@ var cursor = {
       self.$dot.style.opacity = 0;
       self.$outline.style.opacity = 0;
     });
-
-    // Change position of cursor with scrolling
-    document.addEventListener('scroll', function (e) {
-
-      if (self.lastScrolledLeft != $(document).scrollLeft()) {
-        self.endX -= self.lastScrolledLeft;
-        self.lastScrolledLeft = $(document).scrollLeft();
-        self.endX += self.lastScrolledLeft;
-      }
-      if (self.lastScrolledTop != $(document).scrollTop()) {
-        self.endY -= self.lastScrolledTop;
-        self.lastScrolledTop = $(document).scrollTop();
-        self.endY += self.lastScrolledTop;
-      }
-      self.$dot.style.top = self.endY + "px";
-      self.$dot.style.left = self.endX + "px";
-
-    });
   },
 
   animateDotOutline: function () {
@@ -106,7 +86,7 @@ var cursor = {
     var self = this;
 
     if (self.cursorEnlarged) {
-      self.$dot.style.transform = "translate(-50%, -50%) scale(0.75)";
+      self.$dot.style.transform = "translate(-50%, -50%) scale(1)";
       self.$outline.style.transform = "translate(-50%, -50%) scale(1.5)";
     } else {
       self.$dot.style.transform = "translate(-50%, -50%) scale(1)";

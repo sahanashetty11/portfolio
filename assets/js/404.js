@@ -6,6 +6,7 @@ anime({
     easing: "easeInOutSine",
     direction: "alternate",
 });
+
 anime({
     targets: "#zero",
     translateX: 10,

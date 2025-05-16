@@ -5,66 +5,47 @@ AOS.init();
 const moocs = document.querySelector(".moocs");
 const moocscards = [
   {
-    title: "Data Science",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/browse/data-science",
+    title: "Social Networks",
+    cardImage: "assets/images/education-page/nptel2.png",
+    moocLink: "https://onlinecourses.nptel.ac.in/noc20_cs78/preview",
   },
   {
-    title: "Cryptography",
-    cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/cryptography-for-beginners/",
-  },
-  {
-    title: "Machine Learning",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/learn/machine-learning",
-  },
-  {
-    title: "Introduction to HTML 5",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
-  },
-  {
-    title: "Introduction to CSS 3",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
-  },
-  {
-    title: "Javascript",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-javascript--ud803",
-  },
-  {
-    title: "Bootstrap 4",
-    cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/bootstrap-4-tutorials/",
-  },
-  {
-    title: "Intro to React",
-    cardImage: "assets/images/education-page/edx.svg",
-    moocLink: "https://www.edx.org/learn/reactjs",
-  },
-  {
-    title: "Intro to React Native",
-    cardImage: "assets/images/education-page/coursera2.svg",
+    title: "IBM Data Science Specialization",
+    cardImage: "assets/images/education-page/coursera1.png",
     moocLink:
-      "https://www.coursera.org/lecture/react-native/introduction-to-react-native-Eax0D",
+      "https://www.coursera.org/account/accomplishments/specialization/certificate/AT82J3B9HKKJ",
   },
   {
-    title: "NodeJS, Express and MongoDB",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/learn/server-side-nodejs",
+    title: "Data Science for Engineers",
+    cardImage: "assets/images/education-page/nptel2.png",
+    moocLink: "https://onlinecourses.nptel.ac.in/noc21_cs23/preview",
   },
   {
-    title: "XML-AJAX",
-    cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/xml-from-beginner-to-expert/",
-  },
-  {
-    title: "Data Structures & Algorithms",
-    cardImage: "assets/images/education-page/udacity.svg",
+    title: "The Complete Android Oreo Developer Course",
+    cardImage: "assets/images/education-page/udemy.png",
     moocLink:
-      "https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256",
+      "https://www.udemy.com/course/the-complete-android-oreo-developer-course/",
+  },
+  {
+    title: "Deep Learning Specialization",
+    cardImage: "assets/images/education-page/coursera1.png",
+    moocLink:
+      "https://www.coursera.org/account/accomplishments/specialization/certificate/W4DYPGVJJSYU",
+  },
+  {
+    title: "Python for Data Science",
+    cardImage: "assets/images/education-page/nptel2.png",
+    moocLink: "https://onlinecourses.nptel.ac.in/noc21_cs33/preview",
+  },
+  {
+    title: "Finance for Engineers",
+    cardImage: "assets/images/education-page/emory.jpeg",
+    moocLink: "https://drive.google.com/file/d/15oxLdzUd7Fk0TLWVUz0FPtnoraymbE7F/view?usp=drivesdk",
+  },
+  {
+    title: "Prompt Engineering",
+    cardImage: "assets/images/education-page/vanderbilt.jpeg",
+    moocLink: "https://www.coursera.org/account/accomplishments/verify/VGKWVJAG2WRQ",
   },
 ];
 
@@ -115,7 +96,7 @@ const showCards = () => {
       (output += `        
         <div class="col-6 col-md-3 col-sm-4 column" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="600" >  
             <div class="card mb-3 mx-auto">
-               <div class="content">
+               <div class="content"><a href="${moocLink}"/>
                   <div class="content-overlay"></div>
                     <img src=${cardImage} class="card-img-top content-image">     
                   <div class="content-details fadeIn-bottom">
@@ -171,49 +152,53 @@ document.addEventListener("DOMContentLoaded", showCards1);
 
 /* Timeline Section*/
 
-$(function () {
-  window.sr = ScrollReveal();
+const timeline = document.querySelector(".timeline-container");
+const timelinesection = [
+  {
+    heading: "University of Massachusetts at Amherst",
+    image: "assets/images/education-page/umass.png",
+    subheading: "Masters of Science, Computer Science, (2023-Present) ",
+    description:
+      "<li>CGPA: 3.95/4</li><li>Machine Learning, Secure Distributed Systems, Systems for Data Science, Software Engineering, Statistics, Database Design and Implementation, Business Intelligence and Analytics, Algorithms for Data Science</li>",
+  },
+  {
+    heading: "SSN College of Engineering",
+    image: "assets/images/education-page/ssn.png",
+    subheading: "Bachelors of Technology, Information Technology, (2018-2022) ",
+    description:
+      "<li>CGPA: 8.9/10</li><li>Event Head of Procode(Intra department coding club)</li><li>Member of Coding Club, ML Tech Club</li>",
+  },
 
-  if ($(window).width() < 768) {
-    if ($(".timeline-content").hasClass("js--fadeInLeft")) {
-      $(".timeline-content")
-        .removeClass("js--fadeInLeft")
-        .addClass("js--fadeInRight");
-    }
+  {
+    heading: "Sacred Heart MHSS Church Park",
+    image: "assets/images/education-page/school.jpeg",
+    subheading: "Computer Science, (2004-2018) ",
+    description:
+      "<br><li>93.75% in HSC</li>&nbsp;&nbsp;&nbsp;<li>97% in SSLC</li><li>Vice Captain and Captain of School house 2016-2018</li><li>Merit Rank Holder from 2008-2018</li><li>Member of Student Council</li>",
+  },
+];
 
-    sr.reveal(".js--fadeInRight", {
-      origin: "right",
-      distance: "300px",
-      easing: "ease-in-out",
-      duration: 800,
-    });
-  } else {
-    sr.reveal(".js--fadeInLeft", {
-      origin: "left",
-      distance: "300px",
-      easing: "ease-in-out",
-      duration: 800,
-    });
+const showCards2 = () => {
+  let output = "";
+  timelinesection.forEach(
+    ({ heading, image, subheading, description }) =>
+      (output += `       
+    <div class="timeline-item">
+    <div class="timeline-img">
+        
+    </div>
 
-    sr.reveal(".js--fadeInRight", {
-      origin: "right",
-      distance: "300px",
-      easing: "ease-in-out",
-      duration: 800,
-    });
-  }
-
-  sr.reveal(".js--fadeInLeft", {
-    origin: "left",
-    distance: "300px",
-    easing: "ease-in-out",
-    duration: 800,
-  });
-
-  sr.reveal(".js--fadeInRight", {
-    origin: "right",
-    distance: "300px",
-    easing: "ease-in-out",
-    duration: 800,
-  });
-});
+    <div class="timeline-content js--fadeInLeft">
+        <img src="${image}" class="featured-image">
+    <div class="timeline-content-text">
+      <h2>${heading}</h2>
+      <h6>${subheading}</h6>
+      <p>${description}</p>
+     
+    </div>
+    </div>
+  </div>`)
+  );
+  timeline.innerHTML = output;
+};
+document.addEventListener("DOMContentLoaded", showCards2);
