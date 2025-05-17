@@ -26,7 +26,7 @@ window.onload = function () {
       favicon.href = "./assets/images/folded.png";
     } else {
       document.title = attentionMessage;
-      favicon.href = "./assets/images/dp.png";
+      favicon.href = "./assets/images/folded.png";
     }
   }
 };
