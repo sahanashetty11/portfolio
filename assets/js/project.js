@@ -20,6 +20,14 @@ const projects = [
       "",
       
     Githublink: "https://github.com/sahanashetty11/VisualSearchAndroidApplication",
+  },
+  {
+    title: "Raft Consensus Distributed Key Value Store",
+    cardImage: "assets/images/project-page/kvs.png",
+    description:
+      "",
+      
+    Githublink: "https://github.com/sahanashetty11/Distributed_KVS",
   }
 ];
 
