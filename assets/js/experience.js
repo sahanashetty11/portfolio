@@ -5,6 +5,13 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
    {
+    title: "Software Engineer Intern",
+    cardImage: "assets/images/experience-page/hemut.jpeg",
+    place: "Hemut",
+    time: "(Oct, 2025 - Present)",
+    desp: "<li> Building end-to-end dispatcher Scheduling page for AI-powered fleet management software using Typescript and Python to surface ranked loads and assign them to ranked drivers, with real time state updates and scheduling related metrics. </li>",
+   },
+   {
     title: "Senior Engineer 2",
     cardImage: "assets/images/experience-page/saviynt.png",
     place: "Saviynt",
@@ -68,6 +75,11 @@ document.addEventListener("DOMContentLoaded", showCards2);
 
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
+   {
+    title: "Voice of Data Science Umass Amherst",
+    cardImage: "assets/images/experience-page/vds umass.png",
+    description: "",
+  },
   {
     title: "Women Who Code",
     cardImage: "assets/images/experience-page/whc.png",
