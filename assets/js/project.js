@@ -28,6 +28,14 @@ const projects = [
       "",
       
     Githublink: "https://github.com/sahanashetty11/Distributed_KVS",
+  },
+  {
+    title: "Distributed ML System",
+    cardImage: "assets/images/project-page/banner.jpg",
+    description:
+      "",
+      
+    Githublink: "https://github.com/sahanashetty11/Distributed-ML-System",
   }
 ];
 
