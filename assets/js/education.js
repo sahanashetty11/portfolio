@@ -20,7 +20,7 @@ const timelinesection = [
     image: "assets/images/education-page/umass.png",
     subheading: "Masters of Science, Computer Science, (2025-Present) ",
     description:
-      "<li>CGPA: 4/4</li><li>Distributed and Operating Systems, Database Design and Implementation, Artificial Intelligence</li>",
+      "<li>CGPA: 4/4</li><li>Distributed and Operating Systems, Database Design and Implementation, Artificial Intelligence, Advanced Algorithms, Network Security, Machine Learning, Statistics, Software Engineering</li>",
   },
   {
     heading: "Ramaiah Institute of Technology",
