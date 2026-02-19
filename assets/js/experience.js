@@ -5,6 +5,13 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
    {
+    title: "Founding Engineer",
+    cardImage: "assets/images/experience-page/taskr.jpeg",
+    place: "Taskr",
+    time: "(Feb, 2026 - Present)",
+    desp: "<li> Building an application for on-demand local help in the neighborhood. Shipped end-to-end state machine changes for job, including web-socket based messaging, LLM based chat suggestions and complete in-app payment transaction for users. </li>",
+   },
+   {
     title: "Software Engineer Intern",
     cardImage: "assets/images/experience-page/hemut.jpeg",
     place: "Hemut",
