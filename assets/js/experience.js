@@ -5,10 +5,17 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
    {
+    title: "Software Engineer Intern",
+    cardImage: "assets/images/experience-page/everpure.jpg",
+    place: "Everpure (Formerly Pure Storage)",
+    time: "(Jun, 2026 - Aug, 2026)",
+    desp: "<li> Engineered a GenAI-powered automated evaluation system to assess Pure1 Copilot response quality across turn, session, and cohort-level metrics; visualized trends through OpenSearch and Grafana dashboards and integrated Datadog alerts for live performance degradation, improving response quality by 40% and enhancing customer satisfaction. </li>",
+   },
+   {
     title: "Founding Engineer",
     cardImage: "assets/images/experience-page/taskr.jpg",
     place: "Taskr",
-    time: "(Feb, 2026 - Present)",
+    time: "(Feb, 2026 - May, 2026)",
     desp: "<li> Building an application for on-demand local help in the neighborhood. Shipped end-to-end state machine changes for job, including web-socket based messaging, LLM based chat suggestions and complete in-app payment transaction for users. </li>",
    },
    {
