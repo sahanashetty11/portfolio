@@ -15,11 +15,11 @@ const projects = [
   },
   {
     title: "RepoLens AI - Code Intelligence Platform",
-    cardImage: "assets/images/project-page/repolens.png",
+    cardImage: "assets/images/project-page/repolens-ai.png",
     description:
       "",
       
-    Githublink: "https://github.com/sahanashetty11/RepoLens_AI",
+    Githublink: "https://github.com/sahanashetty11/RepoLens-AI",
   }
   {
     title: "Visual Search Android Application using CNN",
