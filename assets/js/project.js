@@ -14,6 +14,14 @@ const projects = [
     Githublink: "https://github.com/sahanashetty11/The_Game_Of_Poker",
   },
   {
+    title: "RepoLens AI - Code Intelligence Platform",
+    cardImage: "assets/images/project-page/repolens.png",
+    description:
+      "",
+      
+    Githublink: "https://github.com/sahanashetty11/RepoLens_AI",
+  }
+  {
     title: "Visual Search Android Application using CNN",
     cardImage: "assets/images/project-page/searchends.png",
     description:
